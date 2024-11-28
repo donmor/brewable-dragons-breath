@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "The Unlicense"
+
+[[mods]]
+modId = "brewable_dragons_breath"
+version = "${version}"
+displayName = "Brewable Dragon's Breath"
+authors = "donmor"
+description = '''
+Brew dragon's breath with chorus fruit!
+'''
+itemIcon = "minecraft:dragon_breath"
+updateJSONURL = "https://raw.githubusercontent.com/donmor/brewable-dragons-breath/refs/heads/1.20.1/versions.json"
+#logoFile = ""
+displayTest="IGNORE_SERVER_VERSION"
+
+[[dependencies.brewable_dragons_breath]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.brewable_dragons_breath]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
